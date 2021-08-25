@@ -12,3 +12,10 @@
 `Exec merge`
 
 > $ npm start
+
+
+**Commit pattern**:
+
+`To commit your changes, exec only git commit`
+
+> $ git commit
