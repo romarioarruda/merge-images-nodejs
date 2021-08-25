@@ -5,10 +5,10 @@
 
 **Merge images with Node.js**:
 
->> Update dependences
+`Update dependences`
 
 > $ npm install
 
->> Exec
+`Exec merge`
 
 > $ npm start
