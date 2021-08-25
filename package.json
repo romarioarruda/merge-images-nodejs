@@ -1,0 +1,34 @@
+{
+  "name": "merge-images-nodejs",
+  "version": "1.0.0",
+  "description": "Testing image merge with node.js",
+  "main": "index.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "ts-node-dev index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "@types/sharp": "^0.28.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && node_modules/.bin/cz --hook || true"
+    }
+  }
+}
