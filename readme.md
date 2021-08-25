@@ -7,7 +7,7 @@
 
 `Update dependences`
 
-> $ npm install
+> $ npm install && npm install -g commitizen
 
 `Exec merge`
 
