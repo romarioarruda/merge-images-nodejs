@@ -20,13 +20,16 @@
 Create folders
 
 > files/generated
+
 > files/models/back
+
 > files/models/front
 
 
-`UP API`
+**Up endpoint**:
 
 > $ npm start
+
 
 **Request**: `POST`
 `http://localhost:3000/merge`
